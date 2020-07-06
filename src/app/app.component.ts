@@ -14,9 +14,10 @@ interface Tile {
 })
 
 export class AppComponent {
+ 
   title = 'sarvesh-badhwar';
 
-
+    
 
     tiles: Tile[] = [
     {text: 'One', cols: 8,rows: 4, color: '#347B98', link: '', img: "../assets/linkedin.jpg"},
@@ -28,6 +29,12 @@ export class AppComponent {
     {text: 'Resume', cols: 4, rows: 2, color: '#06B4F9',link: "https://drive.google.com/file/d/1RyydYDQIeK0vUAzbBek31gC8cLIHVs6e/view?usp=sharing", img: "../assets/linkedin.jpg"},
     // {text: 'Eight', cols: 1, rows: 1, color: '#DDBDF1'},
   ];
-}
+
  
+ 
+    
+ 
+}
+
+
 
